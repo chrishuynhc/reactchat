@@ -1,0 +1,29 @@
+<html>
+
+    <head>
+        <title>React Chat</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="css/style.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react-dom.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    </head>
+
+    <body>
+      <div id="chat"></div>
+
+      <script type="text/babel">
+
+        var ChatApp = React.createClass({
+            render: function(){
+                return (
+                    <div>This will be the chat application</div>
+                )
+            }
+        });
+
+        ReactDOM.render(<ChatApp />, document.getElementById('chat'));
+
+      </script>
+    </body>
+</html>
